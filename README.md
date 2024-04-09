@@ -25,9 +25,10 @@ Before using this package, make sure you have the following prerequisites instal
 Follow the instructions in the XArm repository to set up and control the XArm robotic arm.
 
 Run the XarmVision script using rosrun:
-    
+   ```bash
    rosrun XArmCubeTracker XarmVision
-    
+   ```
+
 Place a cube in front of the camera, and the XArm will track its movement in the x and z axes.
 
 ## Demo
